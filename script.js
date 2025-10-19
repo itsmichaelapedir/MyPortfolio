@@ -66,3 +66,5 @@ document.querySelectorAll(".thumbnail").forEach((img, index) => {
   img.addEventListener("click", () => openLightbox(index));
 });
 document.querySelector(".close").addEventListener("click", closeLightbox);
+
+document.getElementById("year").textContent = new Date().getFullYear();
